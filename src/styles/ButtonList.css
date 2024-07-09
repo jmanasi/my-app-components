@@ -1,0 +1,26 @@
+.button-list {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+}
+
+.button {
+  background-color: #ffd84d;
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+.button.clicked {
+  background-color: grey;
+}
+.button:not(.clicked):hover {
+  background-color: #ffce22;
+}
